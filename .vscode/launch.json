@@ -7,7 +7,7 @@
 		{
 			"type": "node",
 			"request": "launch",
-			"name": "Run RPSBot",
+			"name": "Run modmailbot",
 			"program": "${workspaceFolder}/src/index.js",
 			"envFile": "${workspaceFolder}/.env"
 		}
