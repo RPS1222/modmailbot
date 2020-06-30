@@ -72,7 +72,7 @@ class ModmailBot(commands.Bot):
             raise RuntimeError
 
         try:
-            self.db = AsyncIOMotorClient(mongo_uri).modmail_bot
+            self.db = AsyncIOMotorClient(mongo_uri).get_default_database()
         except ConfigurationError as e:
             logger.critical(
                 "Your MONGODB_URI might be copied wrong, try re-copying from the source again. "
