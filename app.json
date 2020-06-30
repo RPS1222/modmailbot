@@ -15,7 +15,7 @@
       "description": "Comma separated user IDs of people that are allowed to use owner only commands. (eval).",
       "required": true
     },
-    "MONGO_URI": {
+    "MONGODB_URI": {
       "description": "Mongo DB connection URI for self-hosting your data.",
       "required": true
     },

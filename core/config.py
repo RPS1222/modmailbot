@@ -106,7 +106,7 @@ class ConfigManager:
         "guild_id": None,
         "log_url": "https://example.com/",
         "log_url_prefix": "/logs",
-        "mongo_uri": None,
+        "mongodb_uri": None,
         "owners": None,
         # bot
         "token": None,
